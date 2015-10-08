@@ -1,0 +1,17 @@
+.search {
+	.search-field {
+    color: #444444;
+	  font-size: 15px;
+    @include medium-large {
+      padding: 4px 0px;
+    }
+	}
+  &.empty {
+    .search-field {
+      background: white;
+    }
+  }
+  input {
+  	color: lightgray;
+  }
+}

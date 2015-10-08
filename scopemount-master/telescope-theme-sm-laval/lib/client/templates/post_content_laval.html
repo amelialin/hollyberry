@@ -1,0 +1,9 @@
+<template name="post_content_laval">
+  <div class="post-content {{moduleClass}}">
+    <div class="post-info">
+      {{> modules zone="postHeading" zoneClass="post-heading"}}
+      {{#if body}} {{> post_body}} {{/if}}
+    </div>
+    {{> modules zone="postMeta" zoneClass="post-meta"}}
+  </div>
+</template>

@@ -1,0 +1,6 @@
+<template name="categories_magellan">
+    <div class="magellan-header">CATEGORIES</div>
+    {{#each categories}}
+      <a href="{{categoryLink}}" class="post-category category-{{slug}}">{{name}}</a>
+    {{/each}}
+</template>
