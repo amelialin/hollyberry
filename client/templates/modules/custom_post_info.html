@@ -1,0 +1,12 @@
+<template name="custom_post_info">
+  <div class="{{moduleClass}}" aria-live="off">
+    <!-- time posted -->
+    {{#if postedAt}}<span class="post-time">{{timeAgo postedAt}}</span>{{/if}}
+    
+    <!-- comments -->
+    <a class="comments-link" href="{{this.getPageUrl}}">
+      <span class="comments-count">{{commentCount}}</span>
+      <span class="comments-action">{{_ 'comments_'}}</span>
+    </a>
+  </div>
+</template>
