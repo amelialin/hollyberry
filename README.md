@@ -1,1 +1,1 @@
-Hollyberry is a Product Hunt for women. Built using Telescope (https://github.com/TelescopeJS/Telescope/).
+Product discovery site with female community. Built using Telescope (https://github.com/TelescopeJS/Telescope/).
